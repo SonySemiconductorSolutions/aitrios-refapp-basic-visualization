@@ -47,4 +47,4 @@ You can then execute the debugging process in Visual Studio Code as follows:
 
     ![Launch FE Debugger option](../docs/media/launch_fe_debugger.png "Launch FE Debugger")
 
-3. This will open a new browser window with the Zone Detection application, so make sure you are using the right window when debugging.
+3. This will open a new browser window with the Basic Visualization application, so make sure you are using the right window when debugging.

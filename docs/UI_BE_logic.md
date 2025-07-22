@@ -13,7 +13,7 @@ The UI consists of the following panels that can be found in their corresponding
 - [`src/features/basic-visualization/history-mode/components`](../frontend/app/src/features/basic-visualization/history-mode/components)
 
 List of panels:
-- [`HeaderBar`](../frontend/app/src/components/HeaderBar.tsx) -- a panel with the name of the app, selected console type and buttons to shift between System Health and the Main View. Also, it contains a button to return to Console selection.
+- [`HeaderBar`](../frontend/app/src/components/HeaderBar.tsx) -- a panel with the name of the app, selected console type and buttons to shift between Realtime mode and History mode screen. Also, it contains a button to return to Console selection.
 - [`SelectConsolePanel`](../frontend/app/src/features/login-screen/components/SelectConsolePanel.tsx) -- a panel to select which console to use.
 - [`OnlineCredentialsPanel`](../frontend/app/src/features/login-screen/components/OnlineCredentialsPanel.tsx) -- a panel to introduce the log in credentials for the online consoles.
 - [`DeviceModelSelectionPanel`](../frontend/app/src/features/basic-visualization/realtime-mode/components/DeviceModelSelectionPanel.tsx) -- a panel for choosing a device, and one of the models currently deployed on it.

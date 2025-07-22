@@ -97,10 +97,17 @@ The reference solution requires a model and an edge application to be deployed o
 
 ##### AI Model
 
-- By using CustomVision provided by the AITRIOS Console, you can create AI models that can be used for Object Detection inference. To create AI models using CustomVision, refer to the [**Deployment Guide for Custom Vision AI Model**](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/documents/console-v2/deployment-guide-for-custom-vision-ai-model).
+- In order to obtain the AI model for Image Classification and Object Detection, check the [**Console V2 Downloads**](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/downloads/console-v2). You will obtain an Object Detection model (based on SSD MobileNet) and a Classification model (based on MobileNet) as a zip file that will need to be imported to the AITRIOS Console and then deployed to the device.
 
   > **NOTE**<br>
-  > This application supports the Classification interface; however, Classification models cannot be created using CustomVision now.
+  > The AI model is downloaded from Console V2 Downloads, but can be used with both V1 and V2 Console versions.
+
+- For instructions on how to import an AI model into **Console V2** and deploy it to the device, check [**Console V2 User Manual**](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/documents/console-v2/console-user-manual).
+
+- For instructions on how to import an AI model into **Console V1** and deploy it to the device, check [**Console V1 User Manual**](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/documents/console-user-manual).
+
+  > **NOTE**<br>
+  > When importing the AI model, make sure to check the "Converted Model" checkbox as this is a converted model file.
 
 ##### Edge Application
 
