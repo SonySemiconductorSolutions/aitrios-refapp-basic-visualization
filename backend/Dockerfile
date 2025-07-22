@@ -28,7 +28,7 @@ RUN mkdir -p /app/lib/aitrios-console-v2-python-client && \
 
 RUN pip install lib/aitrios-console-python-client
 RUN pip install lib/aitrios-console-v2-python-client
-RUN pip install -e . && if [ "$INSTALL_DEBUG_DEPENDENCIES" = "true" ]; then pip install -e .[debug]; fi
+RUN if [ "$INSTALL_DEBUG_DEPENDENCIES" = "true" ]; then pip install -e .[debug]; fi
 
 WORKDIR /app/app
 
